@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -320,6 +318,14 @@
                 createRow(value).appendTo(tbody)
             })
         }
+        <ol id="differences">
+            <li>JQuery uses .addClass method for adding a class while Javascript uses .classList.add to add the class</li>
+            <li>JQuery handles each browser differently, so compatability is not a problem.</li>
+            <li>jQuery uses a library url and that must be incuded in the head of the html doucument</li>
+            <li></li>
+            <li></li>
+        </ol>
+
     </script>
 </body>
 
